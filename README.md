@@ -1,9 +1,9 @@
 # Machine-Learning-Project
 Heart Disease Prediction
 
-#Data Preparation
+# Data Preparation
 
-##Database Source:
+## Database Source:
 
 The dataset is publicly available on the UCI Machine Learning Repository. The dataset provides
 the patients’ information. This database contains 76 attributes, but all published experiments
@@ -14,9 +14,9 @@ to the presence of heart disease of the patient in given data. It is integer val
 presence) to 4.
 Herat Disease Dataset Access Link: http://archive.ics.uci.edu/ml/datasets/Heart+Disease
 
-###Attribute Information:
+### Attribute Information:
 
-###Only 14 attributes used in this dataset-
+### Only 14 attributes used in this dataset-
 
 • Id- patient identification number
 • Trestbps- resting blood pressure (in mm Hg on admission to the hospital)
@@ -33,7 +33,7 @@ Herat Disease Dataset Access Link: http://archive.ics.uci.edu/ml/datasets/Heart+
 • cp -chest pain type
 • target- 1 or 0
 
-##Python Libraries used in this project
+## Python Libraries used in this project
 
 • Panadas – Pandas is a high-level data manipulation tool developed by Wes McKinney. It is
 built on the NumPy package and its key data structure is called the DataFrame. DataFrames
@@ -62,7 +62,7 @@ fast computing in neural network.
 In this project, I have used many classifiers algorithms like (Decision Tree, K-Nearest
 Neighbors, SVM etc.). After training our model with classification algorithms using scikitlearn, it can be used to predict the target labels given on dataset. In this project this is very important library for me.
 
-###Below are some classifaction models which has already implemented in scikitlearn—
+### Below are some classifaction models which has already implemented in scikitlearn—
 
 i. from sklearn.model_selection import train_test_split
 - train_test_split used for devide training and testing data
@@ -79,7 +79,7 @@ viii. from sklearn.metrics import accuracy_score
 - these are the classifier from scikit-learn library.
 
 
-#CONCLUSION
+# CONCLUSION
 
  In this project, I have applied classification algorithms to identify if a patient presents a heart
 disease or not. In this work, I have also discussed the various algorithms of Machine learning and
